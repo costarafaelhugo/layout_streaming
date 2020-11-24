@@ -1,0 +1,107 @@
+html {
+    background-color: #221F20;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 41px;
+    color: #221F20;
+}
+
+header img {
+    max-width: 15vh;
+    margin: -3% 0 0 -2%;
+}
+
+div .usuarios {
+    width: 86%;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 3.5vh;
+}
+
+.avatar {
+    width: 100%;
+    margin-left: 7.5vh;
+    color: #221F20;
+}
+
+.nome {
+    color: white;
+    margin-left: 40%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+ul {
+    display: inline-block;
+    width: 50;
+    columns: 2;
+}
+
+ul li .avatar_foto {
+    width: 15vh;
+}
+
+#perfil {
+    color: white;
+    margin-left: 30%;
+    margin-top: -2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button {
+    padding: 1.5vh 2vh;
+    margin: 10vh 0 0 13vh;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #221F20;
+    color: white;
+    border: solid 1px;
+}
+
+@media screen and (min-width: 720px) {
+    body{
+        width: 95%;
+    }
+    
+    header img {
+        max-width: 25vh;
+        margin: 0;
+    }
+
+    section{
+        text-align: center;
+    }
+    div .usuarios {
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-size: 2rem;
+        justify-content: center;     
+    }
+     .container {
+        width: 858px;
+        
+    }
+
+    ul{columns: 4;
+    justify-content: center;
+    }
+
+       ul li .avatar_foto {
+           width: 186px;
+       display: inline-flex;
+       justify-content: center;
+    }
+
+
+}
